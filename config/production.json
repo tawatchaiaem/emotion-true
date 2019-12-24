@@ -1,3 +1,4 @@
 {
-    "vat" : 10
+    "vat" : 10,
+    "base_url" : "https://emotion-true.herokuapp.com/"
  }
