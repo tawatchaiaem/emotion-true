@@ -5,6 +5,6 @@ var config = require('../../config/config');
 /* GET login page */
 router.get('/',function(req,res,next){
     console.log(process.env.NODE_ENV);
-    res.render('backend_view/login');
+    res.render('backend_view/login',{env:process.env.NODE_ENV});
 })
 module.exports = router
