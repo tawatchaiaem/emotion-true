@@ -1,4 +1,10 @@
 {
-  "base_url":"T"
-  
+  "development": {
+    "env" : "development",
+    "base_url":"localhost:3000"
+  },
+  "production":{
+    "env" : "production",
+    "base_url":"https://emotion-true.herokuapp.com/"
+  }
 }
