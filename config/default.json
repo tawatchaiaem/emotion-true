@@ -1,4 +1,6 @@
 {
     "vat" : 7,
-    "base_url" : "http://localhost:3000"
+    "environment":"testing",
+    "base_url" : "http://localhost:3000",
+    "favicon" : "favicon-dev.ico"
 }
