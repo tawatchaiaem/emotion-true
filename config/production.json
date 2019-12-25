@@ -1,6 +1,6 @@
 {
     "vat" : 10,
     "environment":"production",
-    "base_url" : "https://emotion-true.herokuapp.com/",
+    "base_url" : "https://emotion-true.herokuapp.com    ",
     "favicon" : "favicon.ico"
  }
