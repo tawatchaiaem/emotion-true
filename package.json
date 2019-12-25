@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "set NODE_ENV=development && node ./bin/www"
+    "dev": "node ./bin/www"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "config": "^3.2.4",
     "cookie-parser": "^1.4.4",
     "debug": "^2.6.9",
@@ -14,6 +15,8 @@
     "ejs": "^2.6.2",
     "express": "^4.16.4",
     "http-errors": "^1.6.3",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.3",
     "morgan": "^1.9.1"
   },
   "devDependencies": {

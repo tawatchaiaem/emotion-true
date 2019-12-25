@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<% include ../backend_partials/header_login %>
+<style>
+    .container-fluid{
+        margin-top: 60px;
+    }
+</style>
+<body style="background-color: #62cb31;">
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="color-line"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="back-link back-backend"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
+            <div class="col-md-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="text-center m-b-md custom-login">
+                    <h3>REGISTER EMOTION TRUE</h3>
+                </div>
+                <div class="hpanel">
+                    <div class="panel-body">
+                        <form action="<%= base_url %>/backend/auth" method="POST" id="loginForm">
+                            <div class="form-group">
+                                <label class="control-label" for="username">Username</label>
+                                <input type="text" placeholder="example@gmail.com" title="Please enter you username" required="" value="" name="username" id="username" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label" for="password">Password</label>
+                                <input type="password" title="Please enter your password" placeholder="Password" required="" value="" name="password" id="password" class="form-control">
+                            </div>
+                            <div class="checkbox login-checkbox"></div>
+                            <button type="submit" class="btn btn-success btn-block loginbtn">Create an accout</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-md-12 col-sm-12 col-xs-12 text-center"> </div>
+        </div>
+    </div>
+    <% include ../backend_partials/footer_login %>   
+</body>
+
+</html>
